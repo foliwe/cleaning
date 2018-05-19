@@ -7,6 +7,17 @@ GIT
       devise (~> 4.2)
       rails (~> 5.0)
 
+GIT
+  remote: https://github.com/rails/activerecord-session_store.git
+  revision: 3e0147c74f862dc9a3600a8b11c980d9d43897a1
+  specs:
+    activerecord-session_store (1.1.1)
+      actionpack (>= 4.0)
+      activerecord (>= 4.0)
+      multi_json (~> 1.11, >= 1.11.2)
+      rack (>= 1.5.2, < 3)
+      railties (>= 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -178,6 +189,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-session_store!
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.4, >= 4.4.3)

@@ -1,7 +1,7 @@
 Rails.application.configure do
-   
+
   # devise says to define default url
-  config.action_mailer.default_url_options = { :host => 'secure.simple-milia-app.com', :protocol => 'https' }
+  config.action_mailer.default_url_options = { :host => 'sassltdcleaning.herokuapp.com', :protocol => 'https' }
 
   ActionMailer::Base.delivery_method = :smtp
 
@@ -104,5 +104,6 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { host: 'sassltdcleaning.herokuapp.com/', :protocol => 'https'}
+  config.action_mailer.default_url_options = { :host => 'sassltdcleaning.herokuapp.com', :protocol => 'https' }
+
 end

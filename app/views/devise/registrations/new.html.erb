@@ -3,10 +3,7 @@
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>
 
-  <div class="field">
-    <%= f.label :company_name %><br />
-    <%= f.text_field :company_name, autocomplete: "offl" %>
-  </div>
+  
   <div class="field">
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
@@ -24,6 +21,16 @@
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
+    <%= fields_for( :tenant) do |w| %>
+      <div class="field">
+        <%= w.label :name %> <br>
+        <%= w.text_field :name %>
+     </div>
+      <div class="field">
+        <%= w.label :plan %> <br>
+        <%= w.select :plan,options_for_select(Plan.options, params[:plan]),{}, require: true %>
+     </div>
+    <%end%>
 
   <div class="actions">
     <%= f.submit "Sign up" %>

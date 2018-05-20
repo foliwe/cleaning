@@ -1,0 +1,18 @@
+<h2>Create Password</h2>
+
+<%= form_for(resource, as: resource_name, url: update_user_confirmation_path, html: { method: :put }) do |f| %>
+  <%= devise_error_messages! %>
+<%= hidden_field_tag :confirmation_token, @confirmation_token %>
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Create password" %>
+  </div>
+<% end %>

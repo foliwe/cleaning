@@ -1,31 +1,33 @@
 <div class="w3-container w3-section">
+<% if current_user%>
+
+  <h3>Organisation: <%=@tenant.name%></h3>
+<%else%>
+<div class="price_list">
 
 
-  <div class="price_list">
+  <div class=" w3-card w3-center">
+    <p>
 
-
-    <div class=" w3-card w3-center">
-      <p>
-
-        <ul class="w3-ul w3-center">
+      <ul class="w3-ul w3-center">
         <li> <h4>FREE PLAN</h4></li>
         <li class="w3-light-grey">Unlimited File Uploads
-            <p><span class="w3-xlarge w3-text-blue">$0</span> <span class="w3-small">/Monthly</span></p>
+          <p><span class="w3-xlarge w3-text-blue">$0</span> <span class="w3-small">/Monthly</span></p>
         </li>
         <li>Responsive Design</li>
         <li class="w3-light-grey">Access Anywhere</li>
         <li>1 User</li>
         <li class="w3-light-grey">1 Project</li>
-        <li><button class="w3-button w3-indigo w3-round-xxlarge"style="width:30%">Sign Up</button></li>
-        </ul>
+        <li><button class="w3-button w3-indigo w3-round-xxlarge"style="width:30%"><%= link_to 'Sign Up',new_user_registration_path%></button></li>
+      </ul>
 
-      </p>
-    </div>
+    </p>
+  </div>
 
 
-    <div class="w3-card w3-flat-belize-hole  w3-center">
-      <p>
-        <ul class="w3-ul w3-center">
+  <div class="w3-card w3-flat-belize-hole  w3-center">
+    <p>
+      <ul class="w3-ul w3-center">
         <li> <h4>STANDARD PLAN</h4></li>
         <li class="w3-flat-peter-river ">Unlimited File  uploads
           <p><span class="w3-xlarge w3-text-white">$30<span> <span class="w3-small">/Monthly</span></p>
@@ -34,29 +36,30 @@
         <li class="w3-flat-peter-river">Access Anywhere</li>
         <li>5 Users</li>
         <li class="w3-flat-peter-river">6 Project</li>
-        <li><button class="w3-button w3-indigo w3-round-xxlarge"style="width:30%">Sign Up</button></li>
-        </ul>
-      </p>
-    </div>
-
-    <div class=" w3-card w3-center">
-      <p>
-
-        <ul class="w3-ul w3-center">
-          <li> <h4>ENTERPRISE PLAN</h4></li>
-          <li class="w3-light-grey">Unlimited File uploads
-              <p><span class="w3-xlarge w3-text-blue">$40</span> <span class="w3-small">/Monthly</span></p>
-          </li>
-          <li>Responsive Design</li>
-          <li class="w3-light-grey">Access Anywhere</li>
-          <li class="w3-text-orange">Unlimited Users</li>
-          <li class="w3-light-grey w3-text-orange">Unlimited Projects</li>
-          <li><button class="w3-button w3-indigo w3-round-xxlarge"style="width:30%">Sign Up</button></li>
-        </ul>
-
-      </p>
-    </div>
-
-
+        <li><button class="w3-button w3-indigo w3-round-xxlarge"style="width:30%"><%= link_to 'Sign Up',new_user_registration_path%></button></li>
+      </ul>
+    </p>
   </div>
+
+  <div class=" w3-card w3-center">
+    <p>
+
+      <ul class="w3-ul w3-center">
+        <li> <h4>ENTERPRISE PLAN</h4></li>
+        <li class="w3-light-grey">Unlimited File uploads
+          <p><span class="w3-xlarge w3-text-blue">$40</span> <span class="w3-small">/Monthly</span></p>
+        </li>
+        <li>Responsive Design</li>
+        <li class="w3-light-grey">Access Anywhere</li>
+        <li class="w3-text-orange">Unlimited Users</li>
+        <li class="w3-light-grey w3-text-orange">Unlimited Projects</li>
+        <li><button class="w3-button w3-indigo w3-round-xxlarge"style="width:30%"><%= link_to 'Sign Up',new_user_registration_path%></button></li>
+      </ul>
+
+    </p>
+  </div>
+
+
+</div>
+<%end%>
 </div>

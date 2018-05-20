@@ -15,3 +15,20 @@
  */
  @import "font-awesome";
  @import "w3schoolcss";
+ @import "flat_ui";
+
+.nav{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  .current_user{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+
+.price_list{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+}

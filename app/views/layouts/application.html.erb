@@ -6,9 +6,54 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    
   </head>
 
   <body>
+    <div class=" w3-blue-grey">
+
+      <div class="w3-bar w3-light-grey">
+      <span class="w3-bar-item ">APP NAME</span>
+       <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <% if user_signed_in?%>
+        <div class="w3-dropdown-hover">
+          <button class="w3-button">Settings</button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">Link 1</a>
+            <a href="#" class="w3-bar-item w3-button">Link 2</a>
+            <a href="#" class="w3-bar-item w3-button">Link 3</a>
+          </div>
+        </div>
+         <div class=""><%=link_to 'Logout', destroy_user_session_path,method: :delete, class:"w3-bar-item w3-button"%></div>
+        <%else%>
+        <div class=""><%=link_to 'Login', new_user_session_path, class:"w3-bar-item w3-button"%></div>
+        <%end%>
+    </div>
+
+      <!-- <div class="nav w3-container w3-padding-small">
+        <div class="company_name">
+          <h4>APP NAME</h4>
+        </div>
+          <div class="current_user">
+            <div class="">
+              <button class="w3-button">Dropdown</button>
+              <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Link 1</a>
+                <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                <a href="#" class="w3-bar-item w3-button">Link 3</a>
+              </div>
+            </div>
+            <% if user_signed_in?%>
+             <div class=""><%=link_to 'Logout', destroy_user_session_path,method: :delete%></div>
+            <%else%>
+            <div class=""><%=link_to 'Login', new_user_session_path%></div>
+            <%end%>
+          </div>
+
+
+      </div> -->
+  </div>
     <%= yield %>
   </body>
 </html>

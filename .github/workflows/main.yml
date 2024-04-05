@@ -16,3 +16,4 @@ jobs:
           server: access1002736330.webspace-data.io
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
+          server-dir: /

@@ -65,7 +65,9 @@
 
                 <div class="bg-white btrow flex flex-col p-2 justify-center items-center gap-2 shadow-lg  hover:bg-teal-500  hover:cursor-pointer transition duration-250 ease-out hover:ease-in" data-delay=".4s">
                     <div class="bg-slate-100 p-3 rounded-full">
+                      <a href="commercial.php">
                         <img src="images/van.jpg" alt="" srcset="">
+                        </a>
                     </div>
                     <h1 class="text-teal-500 text-lg font-bold text-center md:text-base">Commercial Removals</h1>
                     <p class="text-sm md:px-10  text-center">
@@ -77,9 +79,11 @@
 
                 <div class="bg-white btrow flex flex-col p-2 justify-center items-center gap-2 shadow-lg  hover:bg-teal-500 hover:cursor-pointer transition duration-250 ease-out hover:ease-in" data-delay=".5s">
                     <div class="img bg-slate-100 p-3 rounded-full">
+                     <a href="home_removal.php">
                         <img src="images/van2.jpg" alt="" srcset="">
+                    </a>
                     </div>
-                    <h1 class="text-teal-500 text-lg font-bold text-center md:text-base">Home Moves</h1>
+                    <h1 class="text-teal-500 text-lg font-bold text-center md:text-base">Home Removal</h1>
                     <p class="text-sm md:px-10  text-center">
                         Bid farewell to the remnants of winter with our Off Spring Cleaning service, a deep cleaning solution to invigorate your home for the year ahead
                     </p>
@@ -89,7 +93,9 @@
 
                 <div class="bg-white btrow flex flex-col p-2 justify-center items-center gap-2 shadow-lg  hover:bg-teal-500 hover:cursor-pointer transition duration-250 ease-out hover:ease-in" data-delay=".7s">
                     <div class="bg-slate-100 p-3 rounded-full">
+                     <a href="man_van.php">
                         <img src="images/van3.jpg" alt="" srcset="">
+                    </a>
                     </div>
                     <h1 class="text-teal-500 text-lg font-bold text-center md:text-base">Man and Van</h1>
                     <p class="text-sm md:px-10  text-center">
@@ -101,7 +107,9 @@
 
                 <div class="bg-white btrow flex flex-col p-2 justify-center items-center gap-2 shadow-lg   hover:cursor-pointer transition duration-250 ease-out hover:ease-in" data-delay=".7s">
                     <div class="img bg-slate-100 p-3 rounded-full">
+                    <a href="construct.php">
                         <img src="images/cont.jpg" alt="" srcset="">
+                    </a>
                     </div>
                     <h1 class="text-teal-500 text-lg font-bold text-center md:text-base ">Contruction site cleaning</h1>
                     <p class="text-sm md:px-10  text-center">

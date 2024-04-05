@@ -789,28 +789,16 @@ select{
   top: 0px;
 }
 
+.top-10{
+  top: 2.5rem;
+}
+
 .top-2{
   top: 0.5rem;
 }
 
-.top-20{
-  top: 5rem;
-}
-
 .top-5{
   top: 1.25rem;
-}
-
-.bottom-5{
-  bottom: 1.25rem;
-}
-
-.top-1{
-  top: 0.25rem;
-}
-
-.top-10{
-  top: 2.5rem;
 }
 
 .z-10{
@@ -934,6 +922,10 @@ select{
   width: 1.25rem;
 }
 
+.w-56{
+  width: 14rem;
+}
+
 .w-6{
   width: 1.5rem;
 }
@@ -948,14 +940,6 @@ select{
 
 .w-full{
   width: 100%;
-}
-
-.w-48{
-  width: 12rem;
-}
-
-.w-56{
-  width: 14rem;
 }
 
 .max-w-screen-lg{
@@ -1327,11 +1311,6 @@ select{
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-base{
@@ -1792,6 +1771,16 @@ body{
     line-height: 1;
   }
 
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .md\:text-8xl{
     font-size: 6rem;
     line-height: 1;
@@ -1800,16 +1789,6 @@ body{
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .md\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .md\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
   }
 }
 

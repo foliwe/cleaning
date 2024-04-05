@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+  display: none !important;
+}
+
+.hero, .bg-video__content {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  width: 100%;
+}
+.security {
+  background-image: url('images/security.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+body {
+  @apply font-monserrat text-stone-700;
+}
+
+.mytext{
+  opacity: 0;
+}
+@keyframes house1{
+from {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+to {
+  transform: translateX(0);
+  opacity:1;
+}
+}
+
+
+.btrow{
+  opacity: 0;
+}
+@keyframes row2animation{
+from {
+  transform: translateX(100px);
+  opacity: 0;
+}
+to {
+  transform: translateX(0);
+  opacity:1;
+}
+}
+
+
+.wordItem{
+  opacity: 0;
+}
+@keyframes wordanimation{
+from {
+  transform: translateX(-200px);
+  opacity: 0;
+}
+to {
+  transform: translateX(0);
+  opacity:1;
+}
+}

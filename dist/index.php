@@ -68,45 +68,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     <section class="bg-stone-100">
-    <?php include 'header.php'; ?>
+        <?php include 'header.php'; ?>
 
     </section>
 
-    <section class="hero bg-stone-100 md:h-[600px] relative">
-        <video class="bg-video__content absolute" autoplay muted loop>
-             <source src="clips/ryan1.mp4" type="video/mp4">
-        </video>
+   
 
-        <div class="container mx-auto ">
-            <div class=" absolute top-10 md:top-60 flex flex-col gap-6  p-6 md:bg-transparent md:p-0">
-               
-                <h1 class=" text-2xl text-teal-500 font-bold wordItem  md:text-8xl"  data-delay=".3s"> Ryan Health &</h1>
-                <h1 class=" text-2xl text-white font-bold wordItem  md:text-7xl"  data-delay=".5s">Cleaning </h1>
-                <h1 class=" text-2xl text-teal-500 font-bold wordItem  md:text-6xl"  data-delay=".7s"> Limited</h1>
-                
-            </div>
-        </div>
-    </section>
-
-    <section class="diff bg-white mt-60 md:mt-10 md:p-20">
-        <div class="content container mx-auto flex flex-col justify-center md:flex-row p-5 md:p-20 relative">
+    <section class=" bg-white ">
+        <div class="container mx-auto grid grid-cols-2">
             
-            <div class="bg-local p-5 bg-cover block md:h-auto h-60 w-full md:w-1/2 " style="background-image: url('images/clean.jpg')" >
-            <div class="box flex flex-col bg-teal-500/90 text-white md:p-8 p-3 absolute top-5 left-10 md:left-40 shadow-2xl">
-                <p class="text-sm">Proudly Serviced</p>
-                <h1 class="text-3xl">500+</h1>
-                <h1>Client so far</h1>
-            </div>
-            </div>
-            <div class=" flex flex-col mt-2 md:mt-0 gap-5 bg-white md:px-10">
-               
-                <h1 class="text-teal-500 text-4xl font-semibold pt-10">About US</h1>
-                <p class=" md:w-[500px] leading-6">In the cleaning industry, our approach sets us apart. We don't just clean; we create environments where cleanliness complements the essence of safety and sophistication. Our team is not made up of mere workers; they are artisans of cleanliness, with a keen eye for detail and a commitment to immaculate spaces. By integrating eco-friendly products with state-of-the-art technology, we ensure a spotless outcome with minimal environmental impact. Our services are not standardized but are uniquely tailored to the individuality of each client's space. We do not just aspire to meet your expectations; we aim to redefine them, making us a beacon of innovation in the cleaning industry.</p>
+            <div class=" p-5 bg-cover h-56 " style="background-image: url('images/clean.jpg')" >
+                    <h1 class="text-5xl"> 
+                    Hello</h1>
+            </div>  
 
-                <div class="">
-                    <button class="text-xs py-2 px-3 rounded-sm bg-teal-500 text-white shadow-xl"> <a href="about.php">Read More</a> </button>
-                </div>
+
+            <div class=" p-5 bg-cover h-56 " style="background-image: url('images/clean.jpg')" >
+                    <h1 class="text-5xl"> 
+                    Hello</h1>
             </div>
+
+            
+
+            
+
+           
+            
         </div>
     </section>
 

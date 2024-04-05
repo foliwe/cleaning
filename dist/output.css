@@ -910,6 +910,14 @@ select{
   height: 2rem;
 }
 
+.h-auto{
+  height: auto;
+}
+
+.h-56{
+  height: 14rem;
+}
+
 .w-10\/12{
   width: 83.333333%;
 }
@@ -978,6 +986,10 @@ select{
 
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-4{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -1338,6 +1350,11 @@ select{
   line-height: 1rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1408,11 +1425,6 @@ select{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray-800{
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .shadow-2xl{
@@ -1690,6 +1702,14 @@ body{
 
   .md\:h-auto{
     height: auto;
+  }
+
+  .md\:h-\[400px\]{
+    height: 400px;
+  }
+
+  .md\:h-\[200px\]{
+    height: 200px;
   }
 
   .md\:w-1\/2{

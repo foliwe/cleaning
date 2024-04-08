@@ -98,10 +98,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <h1>Client so far</h1>
             </div>
             </div>
-            <div class=" flex flex-col mt-2 md:mt-0 gap-5 bg-white md:px-10">
+            <div class=" flex flex-col mt-2 md:mt-0 gap-5 bg-white md:px-10 md:w-1/2">
                
                 <h1 class="text-teal-500 text-4xl font-semibold pt-10">About US</h1>
-                <p class=" md:w-[500px] leading-6">In the cleaning industry, our approach sets us apart. We don't just clean; we create environments where cleanliness complements the essence of safety and sophistication. Our team is not made up of mere workers; they are artisans of cleanliness, with a keen eye for detail and a commitment to immaculate spaces. By integrating eco-friendly products with state-of-the-art technology, we ensure a spotless outcome with minimal environmental impact. Our services are not standardized but are uniquely tailored to the individuality of each client's space. We do not just aspire to meet your expectations; we aim to redefine them, making us a beacon of innovation in the cleaning industry.</p>
+                <p class=" md:w-[500px] leading-6">At RHCL, we pride ourselves on providing reliable and professional cleaning services tailored to meet the unique needs of our clients. Whether you need residential or commercial cleaning, our experienced team is dedicated to delivering exceptional results with every service.</p>
+
+<p>In addition to our cleaning services, we also offer efficient and affordable van removal services to assist with your transportation needs. Whether you're moving to a new home, transporting furniture, or need help with deliveries, our reliable team is here to make the process as smooth and stress-free as possible.</p>
+
+<p>With RHCL, you can trust that your cleaning and removal needs are in good hands. Our team of skilled professionals is committed to delivering high-quality service, using top-of-the-line equipment and environmentally friendly cleaning products to ensure the best results every time.</p>
+
+<p>Customer satisfaction is our top priority, and we strive to exceed expectations with every job we undertake. Whether you're looking for regular cleaning maintenance or a one-time removal service, RHCL is here to provide you with personalized solutions that fit your schedule and budget.</p>
+
+<p>Experience the difference with RHCL – where professionalism, reliability, and excellence meet in every cleaning and removal service we provide. Contact us today to learn more about our services and discover how we can help you achieve a cleaner, more organized space.</p>
 
                 <div class="">
                     <button class="text-xs py-2 px-3 rounded-sm bg-teal-500 text-white shadow-xl"> <a href="about.php">Read More</a> </button>

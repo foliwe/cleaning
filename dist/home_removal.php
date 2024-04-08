@@ -34,16 +34,22 @@
         <div class="content container mx-auto flex flex-col justify-center md:flex-row p-5 md:p-20 gap-7 relative">
             
             <div class="bg-local p-5 bg-cover block md:h-auto h-60 w-full md:w-1/2 " style="background-image: url('images/van2.jpg')" >
-            <div class="box flex flex-col bg-teal-500/90 text-white md:p-8 p-3 absolute top-5 left-10 md:left-40 shadow-2xl">
-                <p class="text-sm">Proudly Serviced</p>
-                <h1 class="text-3xl">500+</h1>
-                <h1>Client so far</h1>
+            <?php include 'includes/stars.php'; ?>
             </div>
-            </div>
-            <div class=" flex flex-col mt-2 md:mt-0 gap-5">
+            <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Home Removal</h1>
-                <p class=" md:w-96">In the cleaning industry, our approach sets us apart. We don't just clean; we create environments where cleanliness complements the essence of safety and sophistication. Our team is not made up of mere workers; they are artisans of cleanliness, with a keen eye for detail and a commitment to immaculate spaces. By integrating eco-friendly products with state-of-the-art technology, we ensure a spotless outcome with minimal environmental impact. Our services are not standardized but are uniquely tailored to the individuality of each client's space. We do not just aspire to meet your expectations; we aim to redefine them, making us a beacon of innovation in the cleaning industry.</p>
+                <p>Moving to a new home can be an exciting adventure, but it can also be a daunting task. At RHCL, we understand the challenges that come with relocating, which is why we offer professional home removal services to make your move as smooth and hassle-free as possible.</p>
+
+                <p>Our experienced team of movers is dedicated to providing exceptional service from start to finish. Whether you're moving locally or long-distance, our comprehensive home removal services are designed to meet your specific needs and exceed your expectations.</p>
+
+                <p>From packing and loading to transportation and unpacking, we handle every aspect of your move with care and precision. Our movers are trained to handle items of all shapes and sizes, from delicate antiques to bulky furniture, ensuring that your belongings arrive at your new home safely and securely.</p>
+
+                <p>At RHCL, we understand that every move is unique, which is why we offer customizable moving packages to fit your budget and schedule. Whether you need full-service packing and unpacking or just transportation and loading assistance, we've got you covered.</p>
+
+                <p>Customer satisfaction is our top priority, which is why we go above and beyond to deliver exceptional service with every move. Our team is professional, courteous, and dedicated to making your moving experience stress-free and enjoyable.</p>
+
+                <p>Partner with RHCL Home Removal Services and experience the difference that our expertise and commitment to excellence can make for your move. Contact us today to schedule your home removal service and take the first step towards a smooth and seamless relocation.</p>
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

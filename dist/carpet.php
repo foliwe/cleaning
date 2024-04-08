@@ -34,16 +34,20 @@
         <div class="content container mx-auto flex flex-col justify-center md:flex-row p-5 md:p-20 gap-7 relative">
             
             <div class="bg-local p-5 bg-cover block md:h-auto h-60 w-full md:w-1/2 " style="background-image: url('images/carpet.jpg')" >
-            <div class="box flex flex-col bg-teal-500/90 text-white md:p-8 p-3 absolute top-5 left-10 md:left-40 shadow-2xl">
-                <p class="text-sm">Proudly Serviced</p>
-                <h1 class="text-3xl">500+</h1>
-                <h1>Client so far</h1>
+            <?php include 'includes/stars.php'; ?>
             </div>
-            </div>
-            <div class=" flex flex-col mt-2 md:mt-0 gap-5">
+            <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Carpet Cleaning</h1>
-                <p class=" md:w-96">In the cleaning industry, our approach sets us apart. We don't just clean; we create environments where cleanliness complements the essence of safety and sophistication. Our team is not made up of mere workers; they are artisans of cleanliness, with a keen eye for detail and a commitment to immaculate spaces. By integrating eco-friendly products with state-of-the-art technology, we ensure a spotless outcome with minimal environmental impact. Our services are not standardized but are uniquely tailored to the individuality of each client's space. We do not just aspire to meet your expectations; we aim to redefine them, making us a beacon of innovation in the cleaning industry.</p>
+                <p class=" ">Revitalize your carpets with RHCL's professional carpet cleaning service. Over time, carpets can accumulate dirt, stains, and odors that regular vacuuming simply can't eliminate. That's where we come in. Our expert carpet cleaners are equipped with state-of-the-art equipment and eco-friendly cleaning solutions to restore your carpets to their original freshness and fluffiness.</p>
+                <p>
+                Using a proven combination of hot water extraction and advanced cleaning techniques, we penetrate deep into the fibers of your carpets to remove embedded dirt, dust, allergens, and stubborn stains. Our thorough process not only cleans your carpets but also helps prolong their lifespan, leaving them looking and feeling like new.</p>
+                <p>
+                At RHCL, we understand that every carpet is unique, which is why we tailor our cleaning approach to suit the specific needs of your carpets. Whether you have synthetic or natural fibers, high-traffic areas, or delicate rugs, our experienced technicians will assess the condition of your carpets and recommend the most effective cleaning method.</p>
+
+                Customer satisfaction is our top priority, which is why we go above and beyond to deliver exceptional results with every carpet cleaning service. From residential homes to commercial spaces, no job is too big or too small for RHCL.
+                <p>
+                Experience the difference with RHCL Carpet Cleaning Services – where expertise meets excellence. Contact us today to schedule your carpet cleaning appointment and give your carpets the care they deserve.</p>
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

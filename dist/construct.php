@@ -34,16 +34,21 @@
         <div class="content container mx-auto flex flex-col justify-center md:flex-row p-5 md:p-20 gap-7 relative">
             
             <div class="bg-local p-5 bg-cover block md:h-auto h-60 w-full md:w-1/2 " style="background-image: url('images/cont.jpg')" >
-            <div class="box flex flex-col bg-teal-500/90 text-white md:p-8 p-3 absolute top-5 left-10 md:left-40 shadow-2xl">
-                <p class="text-sm">Proudly Serviced</p>
-                <h1 class="text-3xl">500+</h1>
-                <h1>Client so far</h1>
+            <?php include 'includes/stars.php'; ?>
             </div>
-            </div>
-            <div class=" flex flex-col mt-2 md:mt-0 gap-5">
-               
-                <h1 class="text-4xl font-semibold">Contruction site cleaning</h1>
-                <p class=" md:w-96">In the cleaning industry, our approach sets us apart. We don't just clean; we create environments where cleanliness complements the essence of safety and sophistication. Our team is not made up of mere workers; they are artisans of cleanliness, with a keen eye for detail and a commitment to immaculate spaces. By integrating eco-friendly products with state-of-the-art technology, we ensure a spotless outcome with minimal environmental impact. Our services are not standardized but are uniquely tailored to the individuality of each client's space. We do not just aspire to meet your expectations; we aim to redefine them, making us a beacon of innovation in the cleaning industry.</p>
+            <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
+              <h1 class="text-4xl font-semibold">Construction site cleaning</h1>
+              <p>Construction sites can quickly accumulate debris, dust, and waste, making it essential to have a reliable cleaning service to maintain a safe and organized workspace. At RHCL, we specialize in providing comprehensive construction site cleaning services to ensure that your site remains clean, tidy, and compliant with safety regulations.</p>
+
+              <p>Our experienced team is equipped with the necessary tools, equipment, and expertise to handle all aspects of construction site cleanup. From removing debris and trash to sweeping and vacuuming, we'll leave your site looking spotless and ready for the next phase of construction.</p>
+
+              <p>We understand the importance of efficiency and timeliness in the construction industry, which is why we work quickly and diligently to complete our cleaning tasks on schedule. Whether you need daily, weekly, or one-time cleaning services, we'll work with you to develop a cleaning plan that meets your project's requirements.</p>
+
+              <p>Safety is our top priority, and our team adheres to strict safety protocols to ensure a secure working environment for everyone on-site. We also prioritize environmentally friendly practices, disposing of waste responsibly and recycling whenever possible.</p>
+
+              <p>Partner with RHCL Construction Site Cleaning Service and experience the difference that our professionalism and dedication can make for your construction project. Contact us today to schedule your cleaning service and ensure that your construction site remains clean, safe, and productive.</p>
+                
+
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

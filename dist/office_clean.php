@@ -34,16 +34,20 @@
         <div class="content container mx-auto flex flex-col justify-center md:flex-row p-5 md:p-20 gap-7 relative">
             
             <div class="bg-local p-5 bg-cover block md:h-auto h-60 w-full md:w-1/2 " style="background-image: url('images/office.jpg')" >
-            <div class="box flex flex-col bg-teal-500/90 text-white md:p-8 p-3 absolute top-5 left-10 md:left-40 shadow-2xl">
-                <p class="text-sm">Proudly Serviced</p>
-                <h1 class="text-3xl">500+</h1>
-                <h1>Client so far</h1>
+            <?php include 'includes/stars.php'; ?>
             </div>
-            </div>
-            <div class=" flex flex-col mt-2 md:mt-0 gap-5">
+            <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Office Cleaning</h1>
-                <p class=" md:w-96">In the cleaning industry, our approach sets us apart. We don't just clean; we create environments where cleanliness complements the essence of safety and sophistication. Our team is not made up of mere workers; they are artisans of cleanliness, with a keen eye for detail and a commitment to immaculate spaces. By integrating eco-friendly products with state-of-the-art technology, we ensure a spotless outcome with minimal environmental impact. Our services are not standardized but are uniquely tailored to the individuality of each client's space. We do not just aspire to meet your expectations; we aim to redefine them, making us a beacon of innovation in the cleaning industry.</p>
+                <p>A clean and hygienic office environment is essential for the productivity and well-being of your employees, as well as leaving a positive impression on clients and visitors. At RHCL, we specialize in providing comprehensive office cleaning services to ensure that your workplace remains pristine and inviting.</p>
+
+                <p>Our experienced team of professional cleaners is trained to handle all aspects of office cleaning, from dusting and vacuuming to sanitizing surfaces and disinfecting high-touch areas. We use industry-leading cleaning products and techniques to ensure that your office is not only clean but also free from harmful germs and bacteria.</p>
+
+              <p>We understand that every office is unique, which is why we offer customizable cleaning plans tailored to meet your specific needs and schedule. Whether you need daily, weekly, or bi-weekly cleaning services, we'll work with you to develop a cleaning schedule that fits seamlessly into your workflow.</p>
+
+            <p>At RHCL, we prioritize customer satisfaction and attention to detail. Our team is dedicated to delivering exceptional results with every cleaning service, leaving your office looking and feeling fresh and welcoming.</p>
+
+            <p>Experience the difference with RHCL Office Cleaning Service and enjoy a cleaner, healthier, and more productive workplace. Contact us today to schedule your cleaning service and let us take care of the cleanliness of your office while you focus on your business.</p>
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

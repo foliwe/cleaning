@@ -34,16 +34,20 @@
         <div class="content container mx-auto flex flex-col justify-center md:flex-row p-5 md:p-20 gap-7 relative">
             
             <div class="bg-local p-5 bg-cover block md:h-auto h-60 w-full md:w-1/2 " style="background-image: url('images/windows.jpg')" >
-            <div class="box flex flex-col bg-teal-500/90 text-white md:p-8 p-3 absolute top-5 left-10 md:left-40 shadow-2xl">
-                <p class="text-sm">Proudly Serviced</p>
-                <h1 class="text-3xl">500+</h1>
-                <h1>Client so far</h1>
+            <?php include 'includes/stars.php'; ?>
             </div>
-            </div>
-            <div class=" flex flex-col mt-2 md:mt-0 gap-5">
+            <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Windows Cleaning</h1>
-                <p class=" md:w-96">In the cleaning industry, our approach sets us apart. We don't just clean; we create environments where cleanliness complements the essence of safety and sophistication. Our team is not made up of mere workers; they are artisans of cleanliness, with a keen eye for detail and a commitment to immaculate spaces. By integrating eco-friendly products with state-of-the-art technology, we ensure a spotless outcome with minimal environmental impact. Our services are not standardized but are uniquely tailored to the individuality of each client's space. We do not just aspire to meet your expectations; we aim to redefine them, making us a beacon of innovation in the cleaning industry.</p>
+                <p>Sparkling clean windows can significantly enhance the appearance of your home or business, allowing natural light to flood in and providing clear views of the outside world. At RHCL, we specialize in providing professional window cleaning services to ensure that your windows remain streak-free and gleaming.</p>
+
+              <p>Our experienced team of window cleaners is equipped with the latest tools and techniques to tackle windows of all shapes, sizes, and heights. Whether you have single or multi-story windows, we have the expertise to deliver outstanding results.</p>
+
+              <p>We understand that dirty windows can detract from the overall aesthetic of your property, which is why we pay meticulous attention to detail with every window cleaning service. From removing dirt, grime, and water spots to wiping down frames and sills, we leave no corner untouched.</p>
+
+              <p>At RHCL, we prioritize safety and professionalism. Our window cleaners are trained to adhere to strict safety protocols and use eco-friendly cleaning solutions to protect both your windows and the environment.</p>
+
+            <p>Experience the difference with RHCL Windows Cleaning Service and enjoy the clarity and brightness that sparkling clean windows can bring to your home or business. Contact us today to schedule your window cleaning service and let us help you achieve crystal-clear views.</p>
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

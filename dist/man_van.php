@@ -34,16 +34,19 @@
         <div class="content container mx-auto flex flex-col justify-center md:flex-row p-5 md:p-20 gap-7 relative">
             
             <div class="bg-local p-5 bg-cover block md:h-auto h-60 w-full md:w-1/2 " style="background-image: url('images/van3.jpg')" >
-            <div class="box flex flex-col bg-teal-500/90 text-white md:p-8 p-3 absolute top-5 left-10 md:left-40 shadow-2xl">
-                <p class="text-sm">Proudly Serviced</p>
-                <h1 class="text-3xl">500+</h1>
-                <h1>Client so far</h1>
+            <?php include 'includes/stars.php'; ?>
             </div>
-            </div>
-            <div class=" flex flex-col mt-2 md:mt-0 gap-5">
+            <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Man and Van</h1>
-                <p class=" md:w-96">In the cleaning industry, our approach sets us apart. We don't just clean; we create environments where cleanliness complements the essence of safety and sophistication. Our team is not made up of mere workers; they are artisans of cleanliness, with a keen eye for detail and a commitment to immaculate spaces. By integrating eco-friendly products with state-of-the-art technology, we ensure a spotless outcome with minimal environmental impact. Our services are not standardized but are uniquely tailored to the individuality of each client's space. We do not just aspire to meet your expectations; we aim to redefine them, making us a beacon of innovation in the cleaning industry.</p>
+                <p>When it comes to small-scale moves, pickups, or deliveries, RHCL's Man and Van Service is here to provide you with efficient and affordable transportation solutions. Whether you're moving a few items across town or need help with furniture collection and delivery, our experienced team is ready to assist you.</p>
+
+              <p>Our Man and Van Service offers flexibility and convenience, allowing you to schedule your transportation at a time that suits you best. Whether you need us on short notice or want to plan ahead, we'll work around your schedule to ensure a seamless experience.</p>
+
+              <p>At RHCL, we understand the importance of reliable and trustworthy service, which is why our team is comprised of skilled professionals who are committed to delivering exceptional customer service. From loading and unloading to transportation and handling, your items are in safe hands every step of the way.</p>
+
+              <p>We take pride in providing personalized service tailored to meet your specific needs. Whether you're a homeowner, business owner, or student, our Man and Van Service is designed to make your transportation needs as hassle-free as possible.</p>
+
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

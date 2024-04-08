@@ -34,16 +34,21 @@
         <div class="content container mx-auto flex flex-col justify-center md:flex-row p-5 md:p-20 gap-7 relative">
             
             <div class="bg-local p-5 bg-cover block md:h-auto h-60 w-full md:w-1/2 " style="background-image: url('images/van.jpg')" >
-            <div class="box flex flex-col bg-teal-500/90 text-white md:p-8 p-3 absolute top-5 left-10 md:left-40 shadow-2xl">
-                <p class="text-sm">Proudly Serviced</p>
-                <h1 class="text-3xl">500+</h1>
-                <h1>Client so far</h1>
+            <?php include 'includes/stars.php'; ?>
             </div>
-            </div>
-            <div class=" flex flex-col mt-2 md:mt-0 gap-5">
+            <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Commercial Removals</h1>
-                <p class=" md:w-96">In the cleaning industry, our approach sets us apart. We don't just clean; we create environments where cleanliness complements the essence of safety and sophistication. Our team is not made up of mere workers; they are artisans of cleanliness, with a keen eye for detail and a commitment to immaculate spaces. By integrating eco-friendly products with state-of-the-art technology, we ensure a spotless outcome with minimal environmental impact. Our services are not standardized but are uniquely tailored to the individuality of each client's space. We do not just aspire to meet your expectations; we aim to redefine them, making us a beacon of innovation in the cleaning industry.</p>
+                <p class="">Maintaining a clean and hygienic work environment is essential for the success of any business. At RHCL, we specialize in providing top-notch commercial cleaning services tailored to meet the unique needs of your workplace. Whether you operate a small office, a large corporate building, or a retail space, our experienced team is here to ensure that your premises are always sparkling clean and inviting.</p>
+                <p>
+                Our comprehensive commercial cleaning services cover everything from dusting and vacuuming to sanitizing surfaces, emptying trash bins, and beyond. We understand that every business has its own set of cleaning requirements, which is why we work closely with you to develop a customized cleaning plan that fits your schedule and budget.</p>
+
+                <p>
+                At RHCL, we pride ourselves on our attention to detail and commitment to excellence. Our skilled cleaners are meticulously trained to deliver consistent and reliable results, using industry-leading cleaning products and equipment to ensure the highest standard of cleanliness in your workplace.</p>
+                <p>
+                We understand the importance of professionalism and discretion in commercial environments, which is why our team members are uniformed, background-checked, and trained to respect your privacy and security protocols.</p>
+
+                <p>Partner with RHCL Commercial Cleaning Services and experience the difference that a clean and hygienic workplace can make for your business. Contact us today to schedule a consultation and discover how we can help you maintain a pristine work environment that reflects the professionalism of your brand..</p>
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

@@ -60,6 +60,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     unset($_SESSION['csrf_token_time']);
 }
 ?>
+<?php
+    // Define page titles
+    $page_titles = "Ryan Services Limited";
+
+    ?>
 
 <!doctype html>
 <html>

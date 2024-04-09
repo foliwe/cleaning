@@ -1,6 +1,12 @@
+<?php
+    // Define page titles
+    $page_titles = "About Us";
+
+    ?>
 <!doctype html>
 <html>
 <?php require_once 'head.php'; ?>'
+
 <body>
   <body x-data="{openMenu: false}" :class="openMenu ? 'overflow-hidden' : 'overflow-visible'">
 

@@ -1,4 +1,8 @@
+<?php
+    // Define page titles
+    $page_titles = "Contact Us";
 
+    ?>
 <?php
 session_start();
 

@@ -4,5 +4,5 @@
   <link href="output.css" rel="stylesheet">
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-   <title>Ryan Services Limited</title>
+   <title><?php echo $page_titles; ?></title>
 </head>

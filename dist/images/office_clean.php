@@ -39,15 +39,15 @@
             <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Office Cleaning</h1>
-                <p>A clean and hygienic office environment is essential for the productivity and well-being of your employees, as well as leaving a positive impression on clients and visitors. At RHCL, we specialize in providing comprehensive office cleaning services to ensure that your workplace remains pristine and inviting.</p>
+                <p>A clean and hygienic office environment is essential for the productivity and well-being of your employees, as well as leaving a positive impression on clients and visitors. At RSL, we specialize in providing comprehensive office cleaning services to ensure that your workplace remains pristine and inviting.</p>
 
                 <p>Our experienced team of professional cleaners is trained to handle all aspects of office cleaning, from dusting and vacuuming to sanitizing surfaces and disinfecting high-touch areas. We use industry-leading cleaning products and techniques to ensure that your office is not only clean but also free from harmful germs and bacteria.</p>
 
               <p>We understand that every office is unique, which is why we offer customizable cleaning plans tailored to meet your specific needs and schedule. Whether you need daily, weekly, or bi-weekly cleaning services, we'll work with you to develop a cleaning schedule that fits seamlessly into your workflow.</p>
 
-            <p>At RHCL, we prioritize customer satisfaction and attention to detail. Our team is dedicated to delivering exceptional results with every cleaning service, leaving your office looking and feeling fresh and welcoming.</p>
+            <p>At RSL, we prioritize customer satisfaction and attention to detail. Our team is dedicated to delivering exceptional results with every cleaning service, leaving your office looking and feeling fresh and welcoming.</p>
 
-            <p>Experience the difference with RHCL Office Cleaning Service and enjoy a cleaner, healthier, and more productive workplace. Contact us today to schedule your cleaning service and let us take care of the cleanliness of your office while you focus on your business.</p>
+            <p>Experience the difference with RSL Office Cleaning Service and enjoy a cleaner, healthier, and more productive workplace. Contact us today to schedule your cleaning service and let us take care of the cleanliness of your office while you focus on your business.</p>
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

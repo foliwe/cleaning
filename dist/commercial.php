@@ -39,16 +39,16 @@
             <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Commercial Removals</h1>
-                <p class="">Maintaining a clean and hygienic work environment is essential for the success of any business. At RHCL, we specialize in providing top-notch commercial cleaning services tailored to meet the unique needs of your workplace. Whether you operate a small office, a large corporate building, or a retail space, our experienced team is here to ensure that your premises are always sparkling clean and inviting.</p>
+                <p class="">Maintaining a clean and hygienic work environment is essential for the success of any business. At RSL, we specialize in providing top-notch commercial cleaning services tailored to meet the unique needs of your workplace. Whether you operate a small office, a large corporate building, or a retail space, our experienced team is here to ensure that your premises are always sparkling clean and inviting.</p>
                 <p>
                 Our comprehensive commercial cleaning services cover everything from dusting and vacuuming to sanitizing surfaces, emptying trash bins, and beyond. We understand that every business has its own set of cleaning requirements, which is why we work closely with you to develop a customized cleaning plan that fits your schedule and budget.</p>
 
                 <p>
-                At RHCL, we pride ourselves on our attention to detail and commitment to excellence. Our skilled cleaners are meticulously trained to deliver consistent and reliable results, using industry-leading cleaning products and equipment to ensure the highest standard of cleanliness in your workplace.</p>
+                At RSL, we pride ourselves on our attention to detail and commitment to excellence. Our skilled cleaners are meticulously trained to deliver consistent and reliable results, using industry-leading cleaning products and equipment to ensure the highest standard of cleanliness in your workplace.</p>
                 <p>
                 We understand the importance of professionalism and discretion in commercial environments, which is why our team members are uniformed, background-checked, and trained to respect your privacy and security protocols.</p>
 
-                <p>Partner with RHCL Commercial Cleaning Services and experience the difference that a clean and hygienic workplace can make for your business. Contact us today to schedule a consultation and discover how we can help you maintain a pristine work environment that reflects the professionalism of your brand..</p>
+                <p>Partner with RSL Commercial Cleaning Services and experience the difference that a clean and hygienic workplace can make for your business. Contact us today to schedule a consultation and discover how we can help you maintain a pristine work environment that reflects the professionalism of your brand..</p>
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

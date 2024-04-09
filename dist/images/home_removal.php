@@ -39,17 +39,17 @@
             <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Home Removal</h1>
-                <p>Moving to a new home can be an exciting adventure, but it can also be a daunting task. At RHCL, we understand the challenges that come with relocating, which is why we offer professional home removal services to make your move as smooth and hassle-free as possible.</p>
+                <p>Moving to a new home can be an exciting adventure, but it can also be a daunting task. At RSL, we understand the challenges that come with relocating, which is why we offer professional home removal services to make your move as smooth and hassle-free as possible.</p>
 
                 <p>Our experienced team of movers is dedicated to providing exceptional service from start to finish. Whether you're moving locally or long-distance, our comprehensive home removal services are designed to meet your specific needs and exceed your expectations.</p>
 
                 <p>From packing and loading to transportation and unpacking, we handle every aspect of your move with care and precision. Our movers are trained to handle items of all shapes and sizes, from delicate antiques to bulky furniture, ensuring that your belongings arrive at your new home safely and securely.</p>
 
-                <p>At RHCL, we understand that every move is unique, which is why we offer customizable moving packages to fit your budget and schedule. Whether you need full-service packing and unpacking or just transportation and loading assistance, we've got you covered.</p>
+                <p>At RSL, we understand that every move is unique, which is why we offer customizable moving packages to fit your budget and schedule. Whether you need full-service packing and unpacking or just transportation and loading assistance, we've got you covered.</p>
 
                 <p>Customer satisfaction is our top priority, which is why we go above and beyond to deliver exceptional service with every move. Our team is professional, courteous, and dedicated to making your moving experience stress-free and enjoyable.</p>
 
-                <p>Partner with RHCL Home Removal Services and experience the difference that our expertise and commitment to excellence can make for your move. Contact us today to schedule your home removal service and take the first step towards a smooth and seamless relocation.</p>
+                <p>Partner with RSL Home Removal Services and experience the difference that our expertise and commitment to excellence can make for your move. Contact us today to schedule your home removal service and take the first step towards a smooth and seamless relocation.</p>
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

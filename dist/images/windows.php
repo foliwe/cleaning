@@ -39,15 +39,15 @@
             <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Windows Cleaning</h1>
-                <p>Sparkling clean windows can significantly enhance the appearance of your home or business, allowing natural light to flood in and providing clear views of the outside world. At RHCL, we specialize in providing professional window cleaning services to ensure that your windows remain streak-free and gleaming.</p>
+                <p>Sparkling clean windows can significantly enhance the appearance of your home or business, allowing natural light to flood in and providing clear views of the outside world. At RSL, we specialize in providing professional window cleaning services to ensure that your windows remain streak-free and gleaming.</p>
 
               <p>Our experienced team of window cleaners is equipped with the latest tools and techniques to tackle windows of all shapes, sizes, and heights. Whether you have single or multi-story windows, we have the expertise to deliver outstanding results.</p>
 
               <p>We understand that dirty windows can detract from the overall aesthetic of your property, which is why we pay meticulous attention to detail with every window cleaning service. From removing dirt, grime, and water spots to wiping down frames and sills, we leave no corner untouched.</p>
 
-              <p>At RHCL, we prioritize safety and professionalism. Our window cleaners are trained to adhere to strict safety protocols and use eco-friendly cleaning solutions to protect both your windows and the environment.</p>
+              <p>At RSL, we prioritize safety and professionalism. Our window cleaners are trained to adhere to strict safety protocols and use eco-friendly cleaning solutions to protect both your windows and the environment.</p>
 
-            <p>Experience the difference with RHCL Windows Cleaning Service and enjoy the clarity and brightness that sparkling clean windows can bring to your home or business. Contact us today to schedule your window cleaning service and let us help you achieve crystal-clear views.</p>
+            <p>Experience the difference with RSL Windows Cleaning Service and enjoy the clarity and brightness that sparkling clean windows can bring to your home or business. Contact us today to schedule your window cleaning service and let us help you achieve crystal-clear views.</p>
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

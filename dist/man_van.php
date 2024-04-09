@@ -39,11 +39,11 @@
             <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Man and Van</h1>
-                <p>When it comes to small-scale moves, pickups, or deliveries, RHCL's Man and Van Service is here to provide you with efficient and affordable transportation solutions. Whether you're moving a few items across town or need help with furniture collection and delivery, our experienced team is ready to assist you.</p>
+                <p>When it comes to small-scale moves, pickups, or deliveries, RSL's Man and Van Service is here to provide you with efficient and affordable transportation solutions. Whether you're moving a few items across town or need help with furniture collection and delivery, our experienced team is ready to assist you.</p>
 
               <p>Our Man and Van Service offers flexibility and convenience, allowing you to schedule your transportation at a time that suits you best. Whether you need us on short notice or want to plan ahead, we'll work around your schedule to ensure a seamless experience.</p>
 
-              <p>At RHCL, we understand the importance of reliable and trustworthy service, which is why our team is comprised of skilled professionals who are committed to delivering exceptional customer service. From loading and unloading to transportation and handling, your items are in safe hands every step of the way.</p>
+              <p>At RSL, we understand the importance of reliable and trustworthy service, which is why our team is comprised of skilled professionals who are committed to delivering exceptional customer service. From loading and unloading to transportation and handling, your items are in safe hands every step of the way.</p>
 
               <p>We take pride in providing personalized service tailored to meet your specific needs. Whether you're a homeowner, business owner, or student, our Man and Van Service is designed to make your transportation needs as hassle-free as possible.</p>
 

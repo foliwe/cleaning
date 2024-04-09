@@ -38,7 +38,7 @@
             </div>
             <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
               <h1 class="text-4xl font-semibold">Construction site cleaning</h1>
-              <p>Construction sites can quickly accumulate debris, dust, and waste, making it essential to have a reliable cleaning service to maintain a safe and organized workspace. At RHCL, we specialize in providing comprehensive construction site cleaning services to ensure that your site remains clean, tidy, and compliant with safety regulations.</p>
+              <p>Construction sites can quickly accumulate debris, dust, and waste, making it essential to have a reliable cleaning service to maintain a safe and organized workspace. At RSL, we specialize in providing comprehensive construction site cleaning services to ensure that your site remains clean, tidy, and compliant with safety regulations.</p>
 
               <p>Our experienced team is equipped with the necessary tools, equipment, and expertise to handle all aspects of construction site cleanup. From removing debris and trash to sweeping and vacuuming, we'll leave your site looking spotless and ready for the next phase of construction.</p>
 
@@ -46,7 +46,7 @@
 
               <p>Safety is our top priority, and our team adheres to strict safety protocols to ensure a secure working environment for everyone on-site. We also prioritize environmentally friendly practices, disposing of waste responsibly and recycling whenever possible.</p>
 
-              <p>Partner with RHCL Construction Site Cleaning Service and experience the difference that our professionalism and dedication can make for your construction project. Contact us today to schedule your cleaning service and ensure that your construction site remains clean, safe, and productive.</p>
+              <p>Partner with RSL Construction Site Cleaning Service and experience the difference that our professionalism and dedication can make for your construction project. Contact us today to schedule your cleaning service and ensure that your construction site remains clean, safe, and productive.</p>
                 
 
                 <div class="flex gap-11">

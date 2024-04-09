@@ -40,13 +40,13 @@
                
               <div class="">
                   <h1 class="text-4xl font-semibold">House Cleaning</h1>
-                  <p class=" ">At RHCL, we understand the importance of a clean and comfortable home environment. That's why we're dedicated to providing exceptional cleaning services tailored to meet your unique needs. With our expert team and meticulous attention to detail, we'll transform your home into a pristine sanctuary where you can relax and unwind. </p>
+                  <p class=" ">At RSL, we understand the importance of a clean and comfortable home environment. That's why we're dedicated to providing exceptional cleaning services tailored to meet your unique needs. With our expert team and meticulous attention to detail, we'll transform your home into a pristine sanctuary where you can relax and unwind. </p>
 
                   <p>Our professional cleaners are thoroughly trained, background-checked, and equipped with the latest cleaning tools and products to ensure outstanding results. From dusting and vacuuming to sanitizing surfaces and scrubbing bathrooms, we leave no corner untouched.</p>
 
-                  <p>Whether you need a one-time deep clean, regular maintenance, or special services for a special occasion, RHCL has you covered. We offer flexible scheduling options and personalized cleaning plans to fit your lifestyle and budget. Plus, with our commitment to customer satisfaction, you can trust that your home is in good hands. </p>
+                  <p>Whether you need a one-time deep clean, regular maintenance, or special services for a special occasion, RSL has you covered. We offer flexible scheduling options and personalized cleaning plans to fit your lifestyle and budget. Plus, with our commitment to customer satisfaction, you can trust that your home is in good hands. </p>
 
-                 <p>Experience the difference with RHCL – where reliability meets excellence in home cleaning. Contact us today to schedule your first cleaning appointment and discover the joy of coming home to a spotless space..</p>
+                 <p>Experience the difference with RSL – where reliability meets excellence in home cleaning. Contact us today to schedule your first cleaning appointment and discover the joy of coming home to a spotless space..</p>
                </div>
                 <div class="flex gap-11">
                     <div class="flex flex-col">

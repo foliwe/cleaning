@@ -39,15 +39,15 @@
             <div class=" flex flex-col mt-2 md:mt-0 gap-5 md:w-1/2">
                
                 <h1 class="text-4xl font-semibold">Carpet Cleaning</h1>
-                <p class=" ">Revitalize your carpets with RHCL's professional carpet cleaning service. Over time, carpets can accumulate dirt, stains, and odors that regular vacuuming simply can't eliminate. That's where we come in. Our expert carpet cleaners are equipped with state-of-the-art equipment and eco-friendly cleaning solutions to restore your carpets to their original freshness and fluffiness.</p>
+                <p class=" ">Revitalize your carpets with RSL's professional carpet cleaning service. Over time, carpets can accumulate dirt, stains, and odors that regular vacuuming simply can't eliminate. That's where we come in. Our expert carpet cleaners are equipped with state-of-the-art equipment and eco-friendly cleaning solutions to restore your carpets to their original freshness and fluffiness.</p>
                 <p>
                 Using a proven combination of hot water extraction and advanced cleaning techniques, we penetrate deep into the fibers of your carpets to remove embedded dirt, dust, allergens, and stubborn stains. Our thorough process not only cleans your carpets but also helps prolong their lifespan, leaving them looking and feeling like new.</p>
                 <p>
-                At RHCL, we understand that every carpet is unique, which is why we tailor our cleaning approach to suit the specific needs of your carpets. Whether you have synthetic or natural fibers, high-traffic areas, or delicate rugs, our experienced technicians will assess the condition of your carpets and recommend the most effective cleaning method.</p>
+                At RSL, we understand that every carpet is unique, which is why we tailor our cleaning approach to suit the specific needs of your carpets. Whether you have synthetic or natural fibers, high-traffic areas, or delicate rugs, our experienced technicians will assess the condition of your carpets and recommend the most effective cleaning method.</p>
 
-                Customer satisfaction is our top priority, which is why we go above and beyond to deliver exceptional results with every carpet cleaning service. From residential homes to commercial spaces, no job is too big or too small for RHCL.
+                Customer satisfaction is our top priority, which is why we go above and beyond to deliver exceptional results with every carpet cleaning service. From residential homes to commercial spaces, no job is too big or too small for RSL.
                 <p>
-                Experience the difference with RHCL Carpet Cleaning Services – where expertise meets excellence. Contact us today to schedule your carpet cleaning appointment and give your carpets the care they deserve.</p>
+                Experience the difference with RSL Carpet Cleaning Services – where expertise meets excellence. Contact us today to schedule your carpet cleaning appointment and give your carpets the care they deserve.</p>
                 <div class="flex gap-11">
                     <div class="flex flex-col">
                         <div class="flex gap-1 items-center">

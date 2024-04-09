@@ -71,6 +71,20 @@ to {
 }
 }
 
+
+.specs{
+  opacity: 0;
+}
+@keyframes boxanimation{
+from {
+  transform: translateY(-100px);
+  opacity: 0;
+}
+to {
+  transform: translateY(0);
+  opacity:1;
+}
+}
 .mouse {
 	width: 50px;
 	height: 90px;

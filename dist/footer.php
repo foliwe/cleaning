@@ -68,6 +68,10 @@
           <li>
             <a href="windows.php" class="text-teal-600 hover:text-teal-800">Window Cleaning</a>
           </li>
+
+          <li>
+            <a href="services.php" class="text-teal-600 hover:text-teal-800">All services</a>
+          </li>
           
         </nav>
       </div>

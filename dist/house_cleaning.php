@@ -1,3 +1,8 @@
+<?php
+    // Define page titles
+    $page_titles = "Service: House Cleaning";
+
+    ?>
 <!doctype html>
 <html>
 <?php require_once 'head.php'; ?>'

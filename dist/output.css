@@ -773,10 +773,6 @@ select{
   left: 0px;
 }
 
-.left-10{
-  left: 2.5rem;
-}
-
 .left-2{
   left: 0.5rem;
 }
@@ -795,10 +791,6 @@ select{
 
 .top-2{
   top: 0.5rem;
-}
-
-.top-5{
-  top: 1.25rem;
 }
 
 .z-10{
@@ -1164,10 +1156,6 @@ select{
   background-color: rgb(20 184 166 / var(--tw-bg-opacity));
 }
 
-.bg-teal-500\/90{
-  background-color: rgb(20 184 166 / 0.9);
-}
-
 .bg-teal-600{
   --tw-bg-opacity: 1;
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
@@ -1307,11 +1295,6 @@ select{
   line-height: 2rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1414,12 +1397,6 @@ select{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.shadow-2xl{
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-lg{
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
@@ -1519,6 +1496,15 @@ body{
   color: rgb(68 64 60 / var(--tw-text-opacity));
 }
 
+.active{
+  border-bottom-width: 2px;
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(20 184 166 / var(--tw-border-opacity));
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(20 184 166 / var(--tw-text-opacity));
+}
+
 .mytext{
   opacity: 0;
 }
@@ -1600,8 +1586,13 @@ body{
   cursor: pointer;
 }
 
-.hover\:border-b:hover{
-  border-bottom-width: 1px;
+.hover\:border-b-2:hover{
+  border-bottom-width: 2px;
+}
+
+.hover\:border-b-teal-500:hover{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(20 184 166 / var(--tw-border-opacity));
 }
 
 .hover\:bg-teal-500:hover{
@@ -1675,10 +1666,6 @@ body{
 }
 
 @media (min-width: 768px){
-  .md\:left-40{
-    left: 10rem;
-  }
-
   .md\:top-60{
     top: 15rem;
   }
@@ -1766,10 +1753,6 @@ body{
 
   .md\:p-20{
     padding: 5rem;
-  }
-
-  .md\:p-8{
-    padding: 2rem;
   }
 
   .md\:px-10{

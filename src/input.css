@@ -24,6 +24,9 @@ body {
   @apply font-monserrat text-stone-700;
 }
 
+.active{
+  @apply text-teal-500 font-bold border-b-2 border-b-teal-500;
+}
 .mytext{
   opacity: 0;
 }

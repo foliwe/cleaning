@@ -1,3 +1,7 @@
+
+<?php
+$current_page = basename($_SERVER['PHP_SELF']);
+?>
 <body x-data="{openMenu: false}" :class="openMenu ? overflow-hidden : overflow-visible">
 
   <header class="bg-inherit">
@@ -19,10 +23,10 @@
       <!-- desktop Menu -->
       <nav class="hidden md:flex">
         <ul class="flex space-x-8 text-lg items-center">
-          <li><a class="hover:border-b py-3" href="index.php">Home</a></li>
-          <li><a class="hover:border-b py-3" href="about.php">About us</a></li>
-          <li><a class="hover:border-b py-3" href="services.php">Services</a></li>
-          <li><a class="hover:border-b py-3" href="contact.php">Contact</a></li>
+          <li><a class="border-b hover:border-b-2 py-3 hover:border-b-teal-500 <?php echo ($current_page === 'index.php') ? 'active' : ''; ?>" href="index.php">Home</a></li>
+          <li><a class="border-b hover:border-b-2 py-3 hover:border-b-teal-500 <?php echo ($current_page === 'about.php') ? 'active' : ''; ?>" href="about.php">About us</a></li>
+          <li><a class="border-b hover:border-b-2 py-3 hover:border-b-teal-500 <?php echo ($current_page === 'services.php') ? 'active' : ''; ?>" href="services.php">Services</a></li>
+          <li><a class="border-b hover:border-b-2 py-3 hover:border-b-teal-500 <?php echo ($current_page === 'contact.php') ? 'active' : ''; ?>" href="contact.php">Contact</a></li>
           <li><button class="bg-teal-400 py-2 px-4  text-white text-xl font-semibold">+442088541211</button></li>
         </ul>
       </nav>

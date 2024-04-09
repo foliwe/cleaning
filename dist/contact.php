@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // If there are no errors, send the email
     if (count($errors) === 0) {
-        $to = 'info@ryanhealthandcleaningltd.co.uk';
+        $to = 'info@ryanservicesltd.co.uk';
         $subject = 'New Contact Form Message';
         $headers = "From: " . $email . "\r\n";
         $headers .= "Reply-To: " . $email . "\r\n";

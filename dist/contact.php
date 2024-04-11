@@ -41,15 +41,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Sanitize and validate input
     $name = trim(htmlspecialchars($_POST['name'] ?? '', ENT_QUOTES, 'UTF-8'));
     $email = filter_var($_POST['email'] ?? '', FILTER_SANITIZE_EMAIL);
+    $phone = trim(htmlspecialchars($_POST['phone'] ?? '', ENT_QUOTES, 'UTF-8'));
     $message = trim(htmlspecialchars($_POST['message'] ?? '', ENT_QUOTES, 'UTF-8'));
 
     // Validate fields
     if (!$name) {
         $errors[] = 'The name field is required.';
     }
-    if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = 'A valid email address is required.';
+    if (!$phone) {
+        $errors[] = 'Phone Is required.';
     }
+    if (!$email || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $errors[] = 'A valid email address is required.';
+  }
     if (!$message) {
         $errors[] = 'The message field is required.';
     }
@@ -63,6 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $headers .= "X-Mailer: PHP/" . phpversion();
 
         $emailBody = "Name: $name\n";
+        $emailBody .= "Phone: $phone\n";
         $emailBody .= "Email: $email\n";
         $emailBody .= "Message:\n$message\n";
 
@@ -148,6 +153,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="relative mb-4">
           <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
           <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required>
+        </div>
+        <div class="relative mb-4">
+          <label for="phone" class="leading-7 text-sm text-gray-600">Phone Number</label>
+          <input type="text" id="phone" name="phone" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required>
         </div>
         <div class="relative mb-4">
           <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
